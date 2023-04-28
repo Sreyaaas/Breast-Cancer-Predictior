@@ -1,24 +1,35 @@
-# Heart Disease Prediction
+# Breast Cancer Prediction
 
-This project is a machine learning model that predicts the likelihood of a patient having heart disease based on several input features. The model was trained on a dataset of patient information and tested for accuracy.
+This repository contains a machine learning project for predicting breast cancer in patients. The dataset used for training and testing the model is the Breast Cancer Wisconsin (Diagnostic) Dataset, which can be found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)).
 
-## Getting Started
+## Installation
 
-To use this model, you will need to have Python installed on your machine, along with the following libraries:
+To run this project, you will need to install the following Python packages:
 
-- pandas
-- numpy
-- scikit-learn
+* pandas
+* numpy
+* scikit-learn
+* matplotlib
+* seaborn
 
-You can install these libraries using pip. Once you have the necessary libraries, you can run the `predict.py` script to make a prediction on a new patient. 
+You can install these packages using pip:
 
-The script takes in several input parameters, including age, sex, cholesterol level, and blood pressure, among others. It then uses the pre-trained machine learning model to predict the likelihood of heart disease. 
 
-## Model Accuracy
+## Usage
 
-The machine learning model used in this project achieved an accuracy of 85% on the test data. However, it's important to note that this model is not a substitute for professional medical advice and should not be used to make medical decisions.
+To run the project, simply run the `breast_cancer_prediction.py` script:
 
-## Data Source
 
-The dataset used to train the machine learning model was obtained from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease). 
+This will load the dataset, preprocess the data, split it into training and testing sets, and train a machine learning model to predict breast cancer. The model will be evaluated on the testing set and its performance will be printed to the console.
 
+## Results
+
+The trained model achieves an accuracy of XX% on the testing set, indicating that it is effective at predicting breast cancer in patients.
+
+## Contributing
+
+If you would like to contribute to this project, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
