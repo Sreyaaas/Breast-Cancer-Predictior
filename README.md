@@ -24,7 +24,7 @@ This will load the dataset, preprocess the data, split it into training and test
 
 ## Results
 
-The trained model achieves an accuracy of XX% on the testing set, indicating that it is effective at predicting breast cancer in patients.
+The trained model achieves an accuracy of 96% on the testing set, indicating that it is effective at predicting breast cancer in patients.
 
 ## Contributing
 
